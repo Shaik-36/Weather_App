@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Main Container - Card -->
+    <div class="card">
+
+        <!-- Search Container -->
+        <div class="search">
+
+            <!-- City Input -->
+            <input type="text" class="search-input" placeholder="Enter City Name" spellcheck="false" >
+
+            <!-- Search Button -->
+            <button> <img src="images/search.png" alt=""></button>
+
+        </div>
+
+        <!-- Typo Error Messsage -->
+        <div class="error">
+            <p>!!! Invalid City Name !!! <br> Please check the spelling and Try Again</p>
+        </div>
+
+        <!-- Weather Container -->
+        <div class="weather">
+
+            <!-- Weather Icon -->
+            <img class="weather-icon" src="images/rain.png" alt="Weather Icon">
+
+            <!-- Weather Temperature -->
+            <h1 class="temp" >22°C</h1>
+
+            <!-- City Name -->
+            <h2 class="city" >New York</h2>
+
+            <!-- Feels Like -->
+            <h4 class="like" ></h4>
+
+            <!-- Details of Weather -->
+            <div class="details">
+
+
+                <!-- Humidity Section -->
+                <div class="col">
+
+                    <img src="images/humidity.png" alt="">
+
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+
+                </div>
+
+
+                <!-- Wind Section -->
+                <div class="col">
+
+                    <img src="images/wind.png" alt="">
+                    
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+
+                </div>
+                
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
