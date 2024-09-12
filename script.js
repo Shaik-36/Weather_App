@@ -1,6 +1,6 @@
 
 // API Keys
-const API_Key =  secrets.WEATHER_API_KEY
+// const API_Key =  secrets.WEATHER_API_KEY
 const API_URL = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 
 // Details Dsiplay
@@ -46,7 +46,7 @@ searchBox.addEventListener("keypress", (e) => {
 
 async function checkWeather(city) {
     // Fetch Data
-    const response = await fetch(API_URL + `${city}` + `&appid=${WEATHER_API_KEY}`);
+    const response = await fetch(API_URL + `${city}` + `&appid=WEATHER_API_KEY`);
     let data = await response.json();
     console.log(data)
 
