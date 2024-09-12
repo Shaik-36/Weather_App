@@ -46,7 +46,7 @@ searchBox.addEventListener("keypress", (e) => {
 
 async function checkWeather(city) {
     // Fetch Data
-    const response = await fetch(API_URL + `${city}` + `&appid=${API_Key}`);
+    const response = await fetch(API_URL + `${city}` + `&appid=${WEATHER_API_KEY}`);
     let data = await response.json();
     console.log(data)
 
