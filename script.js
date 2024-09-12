@@ -1,6 +1,6 @@
 
 // API Keys
-const API_Key = "${{ secrets.API_KEY }}"
+const API_Key = "${{ secrets.WEATHER_API_KEY }}"
 const API_URL = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 
 // Details Dsiplay
